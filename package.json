@@ -1,0 +1,28 @@
+{
+  "name": "rax-hooks",
+  "version": "0.0.1",
+  "description": "Rax hooks collections",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build:es": "tsc --build tsconfig.es.json"
+  },
+  "keywords": [
+    "Rax",
+    "Hooks"
+  ],
+  "author": "LinbuduLab",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LinbuduLab/rax-hooks.git"
+  },
+  "homepage": "https://github.com/LinbuduLab/rax-hooks#readme",
+  "devDependencies": {
+    "execa": "^5.1.1",
+    "jest": "^27.2.1",
+    "rax": "^1.2.2",
+    "rax-test-renderer": "^1.0.0",
+    "ts-jest": "^27.0.5",
+    "typescript": "^4.4.3"
+  }
+}
